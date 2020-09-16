@@ -10,7 +10,7 @@ class Program
 
         while (true)
         {
-            System.Console.Write("Vad vill du lägga i lådan: ");
+            System.Console.Write("Vad vill du lägga i byrålådan: ");
             string input = Console.ReadLine();
 
             if (input.ToLower() == "q" || input.ToLower() == "inget")
@@ -20,7 +20,7 @@ class Program
             }
             else if (input.ToLower() == "t" || input.ToLower() == "töm")
             {
-                System.Console.WriteLine("Tömmer byrån på " + contents);
+                System.Console.WriteLine("Tömmer byrån på damm och " + contents);
                 contents = "";
             }
             else
